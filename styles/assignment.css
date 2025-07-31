@@ -172,6 +172,31 @@ display: flex;
     gap: 60px;
 
  }
+ ..plant-image-container{
+    position: relative;
+ }
+ /* Keyframe animation for spinning */
+@keyframes spin {
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+ .trusted-badge{
+  position: absolute;
+    /* top: -25px; */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the badge horizontally */
+    width: 200px; /* Set a fixed width instead of percentage */
+    height: auto;
+    z-index: 10; /* Ensures badge appears above other elements */
+    margin-top: -110px;
+    margin-right: -200px;
+    animation: spin 3s linear infinite;
+
+ }
  .plants-title{
     font-size: 50px;
     font-weight: bold;
