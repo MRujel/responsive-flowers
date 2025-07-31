@@ -355,6 +355,57 @@ display: flex;
 }
 
 /* 6. Footer Section */
+..footer{
 
+}
+.footer-container{
+    /* border: 2px solid salmon; */
+    max-width: 1140px;
+    display: flex;
+    margin: 50px auto;
+}
 
- 
+.footer-content{
+    flex: 1;
+    /* border: 1px solid blue; */
+    font-size: 22;
+    color: #8987A1;
+    /* max-width: 250px; */
+}
+.footer-tagline{
+    max-width: 300px;
+    font-size: 22px;
+}
+.nav-links{
+    flex: 1;
+    /* border: 1px solid blue; */
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-links ul{
+    list-style: none;
+    color: #8987A1;
+
+}
+.nav-links ul li{
+    margin-bottom: 32px;
+}
+.nav-links a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #8987A1;
+    
+}
+.social-icons{
+    flex: 1;
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 24px;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding: ; */
+
+}
